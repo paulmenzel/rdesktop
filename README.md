@@ -30,6 +30,12 @@ need to run `./bootstrap` in order to generate the build infrastructure.
 This is not necessary for release versions of rdesktop.
 
 
+## Increase log level
+
+To get more debug messages, you need to edit `utils.c`. Adapt `_logger_level`
+and `_logger_subjects`, and rebuild rdesktop.
+
+
 ## Usage
 
 Connect to an RDP server with:
